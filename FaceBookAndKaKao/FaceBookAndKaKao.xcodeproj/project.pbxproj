@@ -1,0 +1,533 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		960D223D1DAC7854005764D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960D223C1DAC7854005764D1 /* AppDelegate.swift */; };
+		960D223F1DAC7854005764D1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960D223E1DAC7854005764D1 /* ViewController.swift */; };
+		960D22421DAC7854005764D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 960D22401DAC7854005764D1 /* Main.storyboard */; };
+		960D22441DAC7854005764D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 960D22431DAC7854005764D1 /* Assets.xcassets */; };
+		960D22471DAC7854005764D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 960D22451DAC7854005764D1 /* LaunchScreen.storyboard */; };
+		960D22521DAC7854005764D1 /* FaceBookAndKaKaoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960D22511DAC7854005764D1 /* FaceBookAndKaKaoTests.swift */; };
+		960D225D1DAC7854005764D1 /* FaceBookAndKaKaoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960D225C1DAC7854005764D1 /* FaceBookAndKaKaoUITests.swift */; };
+		960D226D1DAC78F4005764D1 /* KakaoOpenSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 960D226C1DAC78F4005764D1 /* KakaoOpenSDK.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		960D224E1DAC7854005764D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 960D22311DAC7854005764D1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 960D22381DAC7854005764D1;
+			remoteInfo = FaceBookAndKaKao;
+		};
+		960D22591DAC7854005764D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 960D22311DAC7854005764D1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 960D22381DAC7854005764D1;
+			remoteInfo = FaceBookAndKaKao;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		960D22391DAC7854005764D1 /* FaceBookAndKaKao.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FaceBookAndKaKao.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		960D223C1DAC7854005764D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		960D223E1DAC7854005764D1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		960D22411DAC7854005764D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		960D22431DAC7854005764D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		960D22461DAC7854005764D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		960D22481DAC7854005764D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		960D224D1DAC7854005764D1 /* FaceBookAndKaKaoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FaceBookAndKaKaoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		960D22511DAC7854005764D1 /* FaceBookAndKaKaoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceBookAndKaKaoTests.swift; sourceTree = "<group>"; };
+		960D22531DAC7854005764D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		960D22581DAC7854005764D1 /* FaceBookAndKaKaoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FaceBookAndKaKaoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		960D225C1DAC7854005764D1 /* FaceBookAndKaKaoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceBookAndKaKaoUITests.swift; sourceTree = "<group>"; };
+		960D225E1DAC7854005764D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		960D226C1DAC78F4005764D1 /* KakaoOpenSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KakaoOpenSDK.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		960D22361DAC7854005764D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				960D226D1DAC78F4005764D1 /* KakaoOpenSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		960D224A1DAC7854005764D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		960D22551DAC7854005764D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		960D22301DAC7854005764D1 = {
+			isa = PBXGroup;
+			children = (
+				960D223B1DAC7854005764D1 /* FaceBookAndKaKao */,
+				960D22501DAC7854005764D1 /* FaceBookAndKaKaoTests */,
+				960D225B1DAC7854005764D1 /* FaceBookAndKaKaoUITests */,
+				960D223A1DAC7854005764D1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		960D223A1DAC7854005764D1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				960D22391DAC7854005764D1 /* FaceBookAndKaKao.app */,
+				960D224D1DAC7854005764D1 /* FaceBookAndKaKaoTests.xctest */,
+				960D22581DAC7854005764D1 /* FaceBookAndKaKaoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		960D223B1DAC7854005764D1 /* FaceBookAndKaKao */ = {
+			isa = PBXGroup;
+			children = (
+				960D226A1DAC78DF005764D1 /* FrameWork */,
+				960D223C1DAC7854005764D1 /* AppDelegate.swift */,
+				960D223E1DAC7854005764D1 /* ViewController.swift */,
+				960D22401DAC7854005764D1 /* Main.storyboard */,
+				960D22431DAC7854005764D1 /* Assets.xcassets */,
+				960D22451DAC7854005764D1 /* LaunchScreen.storyboard */,
+				960D22481DAC7854005764D1 /* Info.plist */,
+			);
+			path = FaceBookAndKaKao;
+			sourceTree = "<group>";
+		};
+		960D22501DAC7854005764D1 /* FaceBookAndKaKaoTests */ = {
+			isa = PBXGroup;
+			children = (
+				960D22511DAC7854005764D1 /* FaceBookAndKaKaoTests.swift */,
+				960D22531DAC7854005764D1 /* Info.plist */,
+			);
+			path = FaceBookAndKaKaoTests;
+			sourceTree = "<group>";
+		};
+		960D225B1DAC7854005764D1 /* FaceBookAndKaKaoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				960D225C1DAC7854005764D1 /* FaceBookAndKaKaoUITests.swift */,
+				960D225E1DAC7854005764D1 /* Info.plist */,
+			);
+			path = FaceBookAndKaKaoUITests;
+			sourceTree = "<group>";
+		};
+		960D226A1DAC78DF005764D1 /* FrameWork */ = {
+			isa = PBXGroup;
+			children = (
+				960D226B1DAC78E8005764D1 /* KaKao */,
+			);
+			name = FrameWork;
+			sourceTree = "<group>";
+		};
+		960D226B1DAC78E8005764D1 /* KaKao */ = {
+			isa = PBXGroup;
+			children = (
+				960D226C1DAC78F4005764D1 /* KakaoOpenSDK.framework */,
+			);
+			name = KaKao;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		960D22381DAC7854005764D1 /* FaceBookAndKaKao */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 960D22611DAC7854005764D1 /* Build configuration list for PBXNativeTarget "FaceBookAndKaKao" */;
+			buildPhases = (
+				960D22351DAC7854005764D1 /* Sources */,
+				960D22361DAC7854005764D1 /* Frameworks */,
+				960D22371DAC7854005764D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FaceBookAndKaKao;
+			productName = FaceBookAndKaKao;
+			productReference = 960D22391DAC7854005764D1 /* FaceBookAndKaKao.app */;
+			productType = "com.apple.product-type.application";
+		};
+		960D224C1DAC7854005764D1 /* FaceBookAndKaKaoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 960D22641DAC7854005764D1 /* Build configuration list for PBXNativeTarget "FaceBookAndKaKaoTests" */;
+			buildPhases = (
+				960D22491DAC7854005764D1 /* Sources */,
+				960D224A1DAC7854005764D1 /* Frameworks */,
+				960D224B1DAC7854005764D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				960D224F1DAC7854005764D1 /* PBXTargetDependency */,
+			);
+			name = FaceBookAndKaKaoTests;
+			productName = FaceBookAndKaKaoTests;
+			productReference = 960D224D1DAC7854005764D1 /* FaceBookAndKaKaoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		960D22571DAC7854005764D1 /* FaceBookAndKaKaoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 960D22671DAC7854005764D1 /* Build configuration list for PBXNativeTarget "FaceBookAndKaKaoUITests" */;
+			buildPhases = (
+				960D22541DAC7854005764D1 /* Sources */,
+				960D22551DAC7854005764D1 /* Frameworks */,
+				960D22561DAC7854005764D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				960D225A1DAC7854005764D1 /* PBXTargetDependency */,
+			);
+			name = FaceBookAndKaKaoUITests;
+			productName = FaceBookAndKaKaoUITests;
+			productReference = 960D22581DAC7854005764D1 /* FaceBookAndKaKaoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		960D22311DAC7854005764D1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = JasonYoon;
+				TargetAttributes = {
+					960D22381DAC7854005764D1 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					960D224C1DAC7854005764D1 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 960D22381DAC7854005764D1;
+					};
+					960D22571DAC7854005764D1 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 960D22381DAC7854005764D1;
+					};
+				};
+			};
+			buildConfigurationList = 960D22341DAC7854005764D1 /* Build configuration list for PBXProject "FaceBookAndKaKao" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 960D22301DAC7854005764D1;
+			productRefGroup = 960D223A1DAC7854005764D1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				960D22381DAC7854005764D1 /* FaceBookAndKaKao */,
+				960D224C1DAC7854005764D1 /* FaceBookAndKaKaoTests */,
+				960D22571DAC7854005764D1 /* FaceBookAndKaKaoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		960D22371DAC7854005764D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				960D22471DAC7854005764D1 /* LaunchScreen.storyboard in Resources */,
+				960D22441DAC7854005764D1 /* Assets.xcassets in Resources */,
+				960D22421DAC7854005764D1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		960D224B1DAC7854005764D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		960D22561DAC7854005764D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		960D22351DAC7854005764D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				960D223F1DAC7854005764D1 /* ViewController.swift in Sources */,
+				960D223D1DAC7854005764D1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		960D22491DAC7854005764D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				960D22521DAC7854005764D1 /* FaceBookAndKaKaoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		960D22541DAC7854005764D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				960D225D1DAC7854005764D1 /* FaceBookAndKaKaoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		960D224F1DAC7854005764D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 960D22381DAC7854005764D1 /* FaceBookAndKaKao */;
+			targetProxy = 960D224E1DAC7854005764D1 /* PBXContainerItemProxy */;
+		};
+		960D225A1DAC7854005764D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 960D22381DAC7854005764D1 /* FaceBookAndKaKao */;
+			targetProxy = 960D22591DAC7854005764D1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		960D22401DAC7854005764D1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				960D22411DAC7854005764D1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		960D22451DAC7854005764D1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				960D22461DAC7854005764D1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		960D225F1DAC7854005764D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		960D22601DAC7854005764D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		960D22621DAC7854005764D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FaceBookAndKaKao",
+				);
+				INFOPLIST_FILE = FaceBookAndKaKao/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JasonYoon.FaceBookAndKaKao;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		960D22631DAC7854005764D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FaceBookAndKaKao",
+				);
+				INFOPLIST_FILE = FaceBookAndKaKao/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JasonYoon.FaceBookAndKaKao;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		960D22651DAC7854005764D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FaceBookAndKaKaoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JasonYoon.FaceBookAndKaKaoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FaceBookAndKaKao.app/FaceBookAndKaKao";
+			};
+			name = Debug;
+		};
+		960D22661DAC7854005764D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FaceBookAndKaKaoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JasonYoon.FaceBookAndKaKaoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FaceBookAndKaKao.app/FaceBookAndKaKao";
+			};
+			name = Release;
+		};
+		960D22681DAC7854005764D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FaceBookAndKaKaoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JasonYoon.FaceBookAndKaKaoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FaceBookAndKaKao;
+			};
+			name = Debug;
+		};
+		960D22691DAC7854005764D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FaceBookAndKaKaoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JasonYoon.FaceBookAndKaKaoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FaceBookAndKaKao;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		960D22341DAC7854005764D1 /* Build configuration list for PBXProject "FaceBookAndKaKao" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				960D225F1DAC7854005764D1 /* Debug */,
+				960D22601DAC7854005764D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		960D22611DAC7854005764D1 /* Build configuration list for PBXNativeTarget "FaceBookAndKaKao" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				960D22621DAC7854005764D1 /* Debug */,
+				960D22631DAC7854005764D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		960D22641DAC7854005764D1 /* Build configuration list for PBXNativeTarget "FaceBookAndKaKaoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				960D22651DAC7854005764D1 /* Debug */,
+				960D22661DAC7854005764D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		960D22671DAC7854005764D1 /* Build configuration list for PBXNativeTarget "FaceBookAndKaKaoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				960D22681DAC7854005764D1 /* Debug */,
+				960D22691DAC7854005764D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 960D22311DAC7854005764D1 /* Project object */;
+}
